@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | JOSOMOT CONSULTING</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="icon" href="images/Logo.jpg", type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <title>About us</title>
+    <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body> 
-    <!-- header start here -->
+
+<body>
     <header>
         <nav>
             <div class="logo">
                 <a href="index.html">
-                    <img src="images/Logo.jpg" alt="JOSOMOT">
+                    <img src="images/Logo.jpg" alt="JOSOMOT Logo"
+                        onerror="this.src='https://via.placeholder.com/200x50?text=JOSOMOT'">
                 </a>
             </div>
 
@@ -31,60 +26,84 @@
                 <i class="fa-solid fa-bars"></i>
                 <i class="fa-solid fa-xmark"></i>
             </label>
-            <ul class="nav-menu"> 
+
+            <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="service.html">Service</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <!-- header ends here -->
-     <!--about hero section starts -->
-    <section class="about-hero">
-        <!-- <div class="hero-section"> -->
-            <div class="video-container">
-                <video autoplay muted loop>
-                    <source src="video/tech video.mp4" type="video/mp4">
-                </video>
+
+    <main>
+        <section class="about-hero">
+            <div class="hero-overlay"></div>
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="video/tech video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1>Bridging Technology & Business</h1>
+                <p>Enterprise cloud solutions with a human-centric approach.</p>
             </div>
-            <h1>ABOUT US</h1>
-        </div>
-    </section>
-    <!-- about hero ends here -->
-     <!-- about content starts here -->
-    <section class="about-secondpage">
-        <div class="about-mission">
-                <h1>Our Mission</h1>
-                <p>
-                <span>J</span>osmot Consulting Pty Ltd
-                a trusted cloud consulting firm helping organizations leverage cloud technology to improve performance, reduce operational costs, and scale with confidence. We specialize in delivering secure, scalable, and business-aligned cloud solutions tailored to the unique needs of each client.
+        </section>
 
-                With proven expertise across AWS Cloud Services, Microsoft Azure, and Google Cloud Platform, we partner with businesses to design, implement, and manage cloud environments that support growth, resilience, and innovation. Our approach combines technical excellence with a deep understanding of business objectives, ensuring every solution delivers measurable value.
-
-                We offer end-to-end cloud migration services, guiding organizations through a smooth and secure transition from on-premises or legacy systems to the cloud with minimal disruption. In addition, our hybrid cloud solutions enable clients to integrate private and public cloud environments seamlessly, providing greater flexibility, control, and optimized resource utilization.
-
-                At Josmot Consulting, we are committed to long-term partnerships, operational excellence, and helping our clients maximize the return on their cloud investments.
-                </p>
-    
-        <div class="about-vision">
-            <div>
-                <h1>Our Vision</h1>
+        <section class="about-grid">
+            <div class="about-card mission">
+                <div class="card-content">
+                    <span class="card-label">Our Mission</span>
+                    <h2>Empowering Innovation</h2>
+                    <p>Josmot Consulting is a trusted cloud consulting firm dedicated to helping organizations leverage
+                        cloud technology to improve performance, reduce operational costs, and scale with confidence.
+                    </p>
+                    <p>We specialize in delivering secure, scalable, and business-aligned solutions that transform
+                        challenges into competitive advantages.</p>
+                </div>
             </div>
-            <img src="images/hero-section3.jpg" alt="vision image">
-            <p>
-                Our vision is to be a leading global consulting firm recognized for our innovative approach, client-centric solutions, and unwavering commitment to excellence. We aspire to transform businesses and industries by delivering impactful strategies that drive success and create lasting value for our clients.
-            </p>
-        </div>
-    </section>
-    <!-- about content ends here -->
-    <!-- footer starts here -->
+
+            <div class="about-card vision">
+                <div class="card-content">
+                    <span class="card-label">Our Vision</span>
+                    <h2>Defining the Future</h2>
+                    <p>To be a leading global consulting firm recognized for our innovative approach, client-centric
+                        solutions, and unwavering commitment to excellence.</p>
+                    <p>We aspire to transform industries by delivering impactful strategies that drive success and
+                        create lasting value.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="core-values">
+            <div class="section-header">
+                <h1>Our Core Values</h1>
+            </div>
+            <div class="values-grid">
+                <div class="value-item">
+                    <i class="fa-solid fa-shield-check"></i>
+                    <h3>Integrity</h3>
+                    <p>We build long-term partnerships through transparency and ethical consulting.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Innovation</h3>
+                    <p>Applying cutting-edge cloud architectures to solve complex business problems.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Excellence</h3>
+                    <p>Committed to operational excellence and delivering measurable ROI.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <div class="footer-content">
-            <h2>Josmot Consulting Pty Ltd</h2><br>
-            <p>© 2026 Josmot Consulting Pty Ltd. All rights reserved.</p>
+        <div class="footer-section">
+            <h2>Josmot Consulting Pty Ltd</h2>
+            <p>763 Gateway Manor Estate, Hartbeespoort Dam, North West, South Africa</p>
+            <p>&copy; 2026 Josmot Consulting. All rights reserved.</p>
         </div>
     </footer>
-    <!-- footer ends here -->
 </body>
+
 </html>

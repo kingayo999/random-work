@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOSOMOT CONSULTING | Professional Cloud Solutions</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/Logo.jpg", type="image/x-icon"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:wght@200..800&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lilita+One&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-    <title>JOSOMOT CONSULTING</title>
-</head>
+
 <body>
-    <!-- header start here -->
     <header>
         <nav>
             <div class="logo">
                 <a href="index.html">
-                    <img src="images/Logo.jpg" alt="JOSOMOT">
-                </a> 
+                    <img src="images/Logo.jpg" alt="JOSOMOT Logo"
+                        onerror="this.src='https://via.placeholder.com/200x50?text=JOSOMOT'">
+                </a>
             </div>
 
             <input type="checkbox" id="menu-toggle">
@@ -34,133 +25,91 @@
                 <i class="fa-solid fa-bars"></i>
                 <i class="fa-solid fa-xmark"></i>
             </label>
-            <ul class="nav-menu">   <!-- ← add class here -->
+
+            <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="service.html">Service</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-  <!-- other elements if any -->
         </nav>
     </header>
-    <!-- header ends here -->
-    <!-- hero section start here -->
-    <section class="hero-section">
-        <div class="hero-overlay"></div>
 
-        <div class="hero-content">
-            <h1>JOSOMOT CONSULTING</h1>
-            <p>
-                We help organizations design, migrate, optimize, and manage modern cloud environments that drive innovation, scalability, and cost efficiency. From cloud strategy to implementation and ongoing optimization, our experts deliver secure, reliable, and future-ready cloud solutions tailored to your business needs.
-            </p>
-            <div class="hero-search">
-                <input type="text" placeholder="Search services...">
-                <button>Search</button>
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Leading the Cloud Revolution</h1>
+                <p>
+                    We help organizations design, migrate, and optimize modern cloud environments that drive innovation,
+                    scalability, and cost efficiency.
+                </p>
+                <div class="CTA">
+                    <a href="contact.html" class="primary-btn">Get Started</a>
+                    <a href="service.html" class="secondary-btn">Our Services</a>
+                </div>
             </div>
+        </section>
 
-            <div class="CTA">
-                <a href="contact.html">Get Started</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- hero section ends here -->
-     <!-- service section starts here -->
-    <section>
-        <div class="service-section">
-            <h1>Our Services</h1>
+        <section class="service-section">
+            <h1>Our Expertise</h1>
             <div class="service-container">
                 <div class="service-box">
-                    <img src="images/four-happy-diverse-business-professionals-260nw-2708969089.webp " alt="service1">
-                    <h2>Cloud Strategy Consulting</h2>
-                    <p>We help you develop a comprehensive cloud strategy that aligns with your business goals, ensuring a smooth transition to the cloud.</p>
-                    <a href="service.html">Read more</a>
+                    <i class="fa-solid fa-cloud-bolt"
+                        style="font-size: 3rem; color: var(--accent); margin-bottom: 1.5rem;"></i>
+                    <h2>Cloud Strategy</h2>
+                    <p>Develop a comprehensive cloud strategy that aligns with your business goals, ensuring a smooth
+                        transition and long-term success.</p>
+                    <a href="service.html">Learn More</a>
                 </div>
                 <div class="service-box">
-                    <img src="images/hero-section3.jpg" alt="service2">
-                    <h2>Cloud Migration Services</h2>
-                    <p>Our experts facilitate seamless migration of your applications and data to the cloud, minimizing downtime and ensuring data integrity.</p>
-                    <a href="service.html">Read more</a>
+                    <i class="fa-solid fa-rocket"
+                        style="font-size: 3rem; color: var(--accent); margin-bottom: 1.5rem;"></i>
+                    <h2>Cloud Migration</h2>
+                    <p>Facilitate seamless migration of your applications and data to the cloud, minimizing downtime and
+                        ensuring complete integrity.</p>
+                    <a href="service.html">Learn More</a>
                 </div>
                 <div class="service-box">
-                    <img src="images/Brainstorm.webp" alt="service3">
+                    <i class="fa-solid fa-gauge-high"
+                        style="font-size: 3rem; color: var(--accent); margin-bottom: 1.5rem;"></i>
                     <h2>Cloud Optimization</h2>
-                    <p>We analyze and optimize your cloud infrastructure to enhance performance, reduce costs, and improve scalability.</p>
-                    <a href="service.html">Read more</a>
+                    <p>Analyze and optimize your infrastructure to enhance performance, reduce operational costs, and
+                        improve global scalability.</p>
+                    <a href="service.html">Learn More</a>
                 </div>
             </div>
-        </div>
-    <!-- service section ends here -->
-    <!-- service icon start here-->
-    <section>
-        <div class="service-icon-section">
-            <div class="service-icon-container">
-                <div class="service-icon-box">
-                    <i class="fa-solid fa-cloud-arrow-up"></i>
-                    <h2>Scalability</h2>
-                    <p>Our cloud solutions are designed to scale with your business, ensuring you have the resources you need when you need them.</p>
-                </div>
-                <div class="service-icon-box">
-                    <i class="fa-solid fa-shield-halved"></i>
-                    <h2>Security</h2>
-                    <p>We prioritize the security of your data and applications, implementing robust measures to protect against threats and vulnerabilities.</p>
-                </div>
-                <div class="service-icon-box">
-                    <i class="fa-solid fa-clock"></i>
-                    <h2>24/7 Support</h2>
-                    <p>Our dedicated support team is available around the clock to assist you with any issues or questions you may have.</p>
+        </section>
+
+        <section class="about-section">
+            <div class="about-box">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800"
+                    alt="Consulting Team">
+                <div class="about-content">
+                    <h2>Who We Are</h2>
+                    <p>
+                        <strong>Josmot Consulting Pty Ltd</strong> is a premiere cloud consulting firm specializing in
+                        secure, scalable, and cost-effective cloud solutions. With deep expertise across AWS, Azure, and
+                        Google Cloud, we empower businesses to thrive in the digital age.
+                    </p>
+                    <a href="about.html">Our Story</a>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- service icon ends here--> 
-    <!-- About us start here -->
-    <section>
-        <div class="about-section">
-            <div class="about-header">
-                <h1>About Us</h1>
-            </div>
-                <div class="about-box">
-                     <video autoplay muted loop>
-                        <source src="video/tech video.mp4" type="video/mp4">
-                    </video>
-                    <div class="about-content">
-                        <h2>Who We Are</h2>
-                        <p><span>
-                            Josmot Consulting Pty Ltd</span> is a professional cloud consulting firm specializing in delivering secure, scalable, and cost-effective cloud solutions for modern businesses. With deep expertise across AWS Cloud Services, Microsoft Azure, and Google Cloud Platform, we help organizations design, implement, and manage cloud environments that drive efficiency and innovation.We provide end-to-end cloud migration services, ensuring a smooth and secure transition from on-premises or legacy systems to the cloud. Our team also excels in hybrid cloud solutions, enabling businesses to seamlessly integrate private and public cloud environments for greater flexibility and control.
-                        </p>
-                        <a href="about.html">Read more</a>
-                    </div>
-                </div>
-        </div>  
-    </section>
-    <!-- About us ends here -->
-     <!-- contact us start here -->
-    <section>
-        <div class="contact-section">
-            <h1>Get in Touch</h1>
-            <p>Ready to elevate your business with cloud solutions? Contact Josmot Consulting Pty Ltd today to discuss your needs and discover how we can help you achieve your goals.</p>
-            <a href="contact.html">Contact us</a>
-        </div>
-    </section>
-    <!-- contact us ends here -->
-    <!-- our location starts here -->
-    <section>
-        <div class="location-section">
-            <h1>Our Location</h1>
-            <p>763 Gateway Manor Estat,harteespoort dam, 0216, North West, South Africa.</p>
-            <div class="location-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.2289365067877!2d27.89997067517!3d-25.729941677371894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebe2bed64c0c291%3A0x69b3c58e6b1375cb!2sGateway%20Manor%20Estate!5e0!3m2!1sen!2sng!4v1769016429266!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </section>
-    <!-- our location ends here -->
-    <!-- footer starts here -->
+        </section>
+
+        <section class="contact-section">
+            <h1>Ready to Scale?</h1>
+            <p>elevate your business with industry-leading cloud consulting. Let's discuss your next project today.</p>
+            <a href="contact.html">Get in Touch</a>
+        </section>
+    </main>
+
     <footer>
         <div class="footer-section">
-            <h2>Josmot Consulting Pty Ltd</h2><br>
-            <p>&copy; 2026 JOSOMOT AGENCY & CONSULTING SERVICES. All rights reserved.</p>
+            <h2>Josmot Consulting Pty Ltd</h2>
+            <p>763 Gateway Manor Estate, Hartbeespoort Dam, North West, South Africa</p>
+            <p>&copy; 2026 Josmot Consulting. All rights reserved.</p>
         </div>
     </footer>
 </body>
+
 </html>
